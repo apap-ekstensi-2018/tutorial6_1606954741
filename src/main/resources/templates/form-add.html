@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+
+<title>Add student</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+	<h1 class="page-header">Problem Editor</h1>
+
+	<form action="/student/add/submit" method="get">
+		<div>
+			<label for="npm">NPM</label> <input type="text" name="npm" />
+		</div>
+		<div>
+			<label for="name">Name</label> <input type="text" name="name" />
+		</div>
+		<div>
+			<label for="gpa">GPA</label> <input type="text" name="gpa" />
+		</div>
+
+		<div>
+			<button type="submit" name="action" value="save">Save</button>
+		</div>
+	</form>
+
+</body>
+
+</html>
+
